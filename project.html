@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("navbar.html");
+      });
+    </script>
+    <!--End of navigation bar-->
+
+    <div align="center">
+      <div class="title">Project Overview</div>
+    </div>
+
+    <div align="center">
+      <img class="img3" src="media/database.png" alt="App Home">
+      <img class="img3" src="media/calendar.png" alt="App Home">
+      <img class="img3" src="media/team.png" alt="App Home">
+    </div> 
+
+    <div class="text" align="center">
+      <h1>Overview</h1>
+      <h2>The Resident Assistant App is a web application that resident assistants can use to manage their residents, make events, and see personal tasks they must fulfill for their job.
+        The main features of the web application are the student database, a calendar to hold the events as well as displays and active calendar, and a team feature where the resident assistant can see their task list for each school month.
+        The web application is built to be in a responsive iPhone 12 view in Chrome Developer Tools.</h2>
+
+      <h1>Solving a problem</h1>
+      <h2>Resident assistants at GCU have multiple platforms and third-party resources to do tasks in their job, having everything in one platform would be optimal for the assistant and the director.
+        Making this web app would also tie the resident assistant team tighter with communication and them to know when events and tasks are due without having to reach out to individuals on their team, overall pushing productivity.</h2>
+     
+      <h1>Architecture Design</h1>
+      <img class="img4" src="media/Logical.png" alt="App ">
+      <img class="img4" src="media/Physical.png" alt="App ">
+      <h2>The approach taken with this app was to build it as if it was a mobile app. Using the Chrome Developer Tools as a base, the rest of the app was built around it using Bootstrap as a responsive style and all of the other technologies being connected after that.</h2>
+     
+      <h1>Challenges and Pending Issues</h1>
+      <h2>A challenge that I had to endure during the whole process of building this app was time. I had a lot of other responsibilites in school and outside in my personal life. A way I managed to get my app done in time and succeed was to keep a burn down chart amd track all of 
+        my work and hours that were needed to complete the project. Another challenge I had to face was learning Angular and the overall Javascript/Typescript in a short period of time. I was able to learn a lof it with outside resource and books. 
+        The Resident Assistant app is almost 100% functional. During development, I ran into some challenges with the calendar feature, but after coding and testing, I was able to out source the actual calendar.
+        However, we would like to acknowledge that the event edit and delete function is not currently working as intended there are a few bugs that could still bne worked out to make the app work at its full intentions.</h2>
+    </div>
+ 
+    <br/>
+</body>
+</html>
